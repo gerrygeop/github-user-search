@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./src/css/style.css">
+
+    <title>Github Profile</title>
+</head>
+<body>
+
+    <main>
+
+        <form>
+            <input type="text" id="search" placeholder="Search username">
+            <a onclick="getUser()">Search</a>
+        </form>
+
+        <div class="card">
+
+            <div class="card-header flex justify-between">
+                <h4>Github App</h4>
+                <p id="id-user"></p>
+            </div>
+
+            <div class="card-body flex items-center" id="card-body"></div>
+
+            <div class="card-footer flex items-center">
+                <small>Made With</small>
+                <img src="./src/img/icon-heart.svg" alt="heart" width="18">
+                <small>By Gerry</small>
+            </div>
+
+        </div>
+
+    </main>
+    
+    <script src="./src/js/script.js"></script>
+</body>
+</html>
